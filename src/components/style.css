@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.mainBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.circle{
+    text-transform: capitalize;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bg-red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.bg-yellow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.bg-green{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.answer{
+    margin-bottom: 20px;
+}
+
+.general{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
